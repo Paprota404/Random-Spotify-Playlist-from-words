@@ -79,7 +79,7 @@ export default function Home() {
     
     <main className={` flex flex-col items-center justify-center`}>
       <link rel="icon" href="/music.png" sizes="any" />
-      <header className={`${inter.className} text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white m-5`}>Spotify Random Playlists</header>
+      <header className={`${inter.className} text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white m-5`}>Spotify Random Songs</header>
       <div className={`${inter.className} text-center text-xl md:text-2xl lg:text-3xl text-white`}>Write random word get some songs</div>
       <form onSubmit={handleSubmit} className="flex flex-col w-3/4 sm:w-1/2">
         <input ref={inputRef} className="w-22 h-11 rounded-2xl p-3 text-white appearance-none focus:outline-none  placeholder-slate-800 m-5 bg-slate-800" type="text" placeholder="Write some wordssss"></input>
